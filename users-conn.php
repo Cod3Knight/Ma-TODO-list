@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $resultSet = $stmt->get_result();
     $result = $resultSet->fetch_all();
      
-    #foreach($users as $user) 
+    // IL ME MANQUE DES DONNEES ET CERTAINES ICI SONT ERRONNEES 
     {
          
         if(($user['firstname'] == $firstname) &&
