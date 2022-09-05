@@ -1,0 +1,75 @@
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#c74e1e;
+	background: #719ee2;
+	border: 2px solid #111111;
+	border-radius: 20px;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #5a96e6;
+	border: 1px solid #0c0c0c;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #0d0e0d;
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#0f0f0f;
+	border: 2px solid #678a91;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #0c0c0c;
+}
+
+th {
+	font-size: 19px;
+	color: #141414;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
